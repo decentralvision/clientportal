@@ -2,13 +2,13 @@ databases:
   - name: database
     databaseName: database
     user: bullet_train
-    plan: starter
+    plan: free
 
 services:
   - type: redis
     name: redis
     ipAllowList: []
-    plan: starter
+    plan: free
     maxmemoryPolicy: noeviction
   - type: web
     name: web
